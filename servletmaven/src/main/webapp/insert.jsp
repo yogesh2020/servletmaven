@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-<form action="/add" method="post">
+<form action="/AddServlet" method="post">
 
 <div style="margin:auto;width:80%">
 	<div class = "row">

@@ -13,7 +13,7 @@ import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.MongoClient;
 
-@WebServlet("/add")
+@WebServlet("/AddServlet")
 public class AddServlet extends HttpServlet{
 
 	private static final long serialVersionUID = 1L;
@@ -23,7 +23,6 @@ public class AddServlet extends HttpServlet{
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
-				
 		   String Username= req.getParameter("username");  
 	        String Address = req.getParameter("address");  
 	        int Roll = Integer.parseInt(req.getParameter("roll"));  
